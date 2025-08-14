@@ -1,0 +1,28 @@
+{
+  "name": "keepalive-server",
+  "version": "1.0.1",
+  "description": "Simple keepalive ping library for Node.js to periodically hit a given URL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node example.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "keepalive",
+    "ping",
+    "uptime",
+    "library",
+    "nodejs",
+    "fetch",
+    "monitor",
+    "render",
+    "vercel",
+    "express"
+  ],
+  "author": "Akash <codeguyakash@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
