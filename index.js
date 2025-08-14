@@ -29,8 +29,7 @@ export function ping(intervalMs, url, timeoutMs = 10000) {
       );
     } catch (err) {
       console.error(
-        `[${new Date().toISOString()}] ping FAILED -> ${err.name}: ${
-          err.message
+        `[${new Date().toISOString()}] ping FAILED -> ${err.name}: ${err.message
         }`
       );
     } finally {

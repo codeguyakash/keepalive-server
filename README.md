@@ -5,13 +5,17 @@ Simple Node.js library to ping a URL at a fixed interval.
 ## Install
 
 ```bash
-npm i @codeguyakash/keepalive
+npm i keepalive-server
 ```
 
 ## Usage
 
 ```js
-import { ping } from '@codeguyakash/keepalive';
+import { ping } from 'keepalive-server';
+
+or;
+
+const { ping } = require('keepalive-server');
 
 ping(60000, 'https://your-url.com'); // ping every 60 seconds
 ```
