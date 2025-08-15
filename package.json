@@ -1,6 +1,6 @@
 {
   "name": "keepalive-server",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple keepalive ping library for Node.js to periodically hit a given URL",
   "main": "index.js",
   "type": "module",
